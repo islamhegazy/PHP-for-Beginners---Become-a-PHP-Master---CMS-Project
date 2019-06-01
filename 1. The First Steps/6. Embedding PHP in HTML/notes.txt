@@ -1,0 +1,1 @@
+in brackets after install emmet in html or php file write ! + tap and it will init html page
