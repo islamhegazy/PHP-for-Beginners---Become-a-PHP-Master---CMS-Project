@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2. Function Parameters</title>
+</head>
+<body>
+  <?php 
+  	function greeting($message){
+  	echo $message;
+  	}
+
+  	greeting("Hellow");
+   
+   ?>
+
+   
+</body>
+</html>
