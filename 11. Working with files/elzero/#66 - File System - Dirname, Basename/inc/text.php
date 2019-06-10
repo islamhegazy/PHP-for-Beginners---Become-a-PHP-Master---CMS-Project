@@ -1,0 +1,1 @@
+<?php echo "text from include file"; ?>
