@@ -42,5 +42,34 @@ $str1 = "Zello Islam";
 $str2 = "Islam";
 echo substr_compare($str1, $str2,0); 
 // 1 --> لان Z اكبر من I فى ترتيب الحروف
+
+echo '<hr>';
+
+$str1 = "Zello Islam";
+$str2 = "Islam";
+echo substr_compare($str1, $str2,6); 
+//0 -->لان المكان اللى بدا منه هو I زى نفس الحرف فى str2
+
+
+echo '<hr>';
+
+$str1 = "Zello Islam";
+$str2 = "Is";
+echo substr_compare($str1, $str2,6);
+// 3 --> 
+
+echo '<hr>';
+
+$str1 = "Zello IslamHegazy";
+$str2 = "Islam";
+echo substr_compare($str1, $str2,6,8);
+// 3 --> الطول 8 لحد حرف g
+
+echo '<hr>';
+
+$str1 = "Zello islamHegazy";
+$str2 = "Islam";
+echo substr_compare($str1, $str2,6,8,true);
+//true --> يعنى الحروف متكنش حساسه
 ?>
 
