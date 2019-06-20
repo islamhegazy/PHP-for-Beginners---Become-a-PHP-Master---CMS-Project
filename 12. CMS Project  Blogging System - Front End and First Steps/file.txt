@@ -1,0 +1,6 @@
+mysqli_connect --> create connection
+ mysqli_query($connection,$query )
+ mysqli_fetch_assoc()	--> Fetches a result row as an associative array
+ mysqli_num_rows --> count number of rows
+
+  ob_start(); -->This function will turn output buffering on. While output buffering is active no output is sent from the script (other than headers), instead the output is stored in an internal buffer.
